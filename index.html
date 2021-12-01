@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Library</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Library</h1>
+        <p class="desc">A small library project from TheOdinProject made by me. You can add and remove books and set their status.</p>
+        <form action="#" class="form">
+            <input type="text" class="books-name" placeholder="Enter book's name">
+            <input type="text" class="authors-name" placeholder="Enter author's name">
+            <input type="number" class="no-of-pages" placeholder="Enter no. of pages">
+            <select name="status" id="status-select">
+                <option value="">Status</option>
+                <option value="Read">Read</option>
+                <option value="Not Read">Not Read</option>
+            </select>
+            <button class="btn btn-add">Add</button>
+        </form>
+        <table class="table">
+            <tr class="table-head">
+                <th>Name</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+            <tbody class="table-body">
+                
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
